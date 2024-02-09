@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - player
+  - pepper
+  - lasso
+  - surface
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: house
+    uniqueID: 3810414709
+    locked: 0
+  - name: inside
+    uniqueID: 4011113631
+    locked: 0
+  - name: player behind door
+    uniqueID: 939643023
+    locked: 0
+  - name: door
+    uniqueID: 4106829801
+    locked: 0
+  - name: player
+    uniqueID: 900260893
+    locked: 0
+  - name: playerBody
+    uniqueID: 2081510347
+    locked: 0

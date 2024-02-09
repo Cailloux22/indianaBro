@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: 4bdf61875450bd8489dc62cd16c9c131
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 506
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5097517, y: 0.18937835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9c9e560a332cb4e9bae2b0b2bf86f0
+      internalID: 2077184217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 506
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5390094, y: 0.18937835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfce7b07bb846a4d822fc7ecf34320d
+      internalID: 1894460061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rope
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 197
+        width: 7
+        height: 11
+      alignment: 9
+      pivot: {x: 0.15492603, y: 0.88006455}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a346b5cf2675e545975a39544845c32
+      internalID: -1526776963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot 1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 199
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.13096961, y: 0.9554901}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b5250132059be47a5eec16d994689e
+      internalID: 761810384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot 2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 200
+        width: 14
+        height: 7
+      alignment: 9
+      pivot: {x: 0.11310087, y: 0.79815453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e399dead7d7f4399f1027f8488915
+      internalID: -750037617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot 3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 200
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0.07238945, y: 0.9306292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac2d0938799c694ea53616b12c9447f
+      internalID: 1783811367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot 4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 200
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0.12760104, y: 0.9424177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49418b1acc4b40845b853212e0a5affe
+      internalID: -711850249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak 1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 102
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0.43993938, y: 0.189162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7726d31131e9c0744bfead40aaaa18ea
+      internalID: -487878602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak 2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 105
+        width: 35
+        height: 31
+      alignment: 9
+      pivot: {x: 0.7287999, y: 0.018872907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d9969dd1a52f3478354b3e70af568d
+      internalID: -524702204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak 3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 105
+        width: 44
+        height: 29
+      alignment: 9
+      pivot: {x: 0.71384984, y: 0.020209214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36171abed315d4c4a93a2cf623fa586b
+      internalID: 1365045498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak 4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 105
+        width: 44
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6865498, y: 0.0059570805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfad0a2b4cc86944a93b7d1e6f792f8d
+      internalID: -1358885391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak 5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 105
+        width: 53
+        height: 17
+      alignment: 9
+      pivot: {x: 0.47544658, y: 0.017162547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580b89db85e0ef642aa1a26f7456f0cd
+      internalID: 1511939836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak 6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 104
+        width: 35
+        height: 17
+      alignment: 9
+      pivot: {x: 0.17267892, y: 0.058902964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f329a7cff7a5e8a4fb893d19feb804ca
+      internalID: 1791289064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak 7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 45
+        width: 74
+        height: 19
+      alignment: 9
+      pivot: {x: 0.06391742, y: 0.17630064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250f29960e56f1a478e08f631404728c
+      internalID: -846273856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rop
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 47
+        width: 8
+        height: 2
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 2, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff060177a863de48bb17c246653ba70
+      internalID: -84581231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attak
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 201
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff16ccd1d7d4c134fb5ba545f93c5e27
+      internalID: -864376982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 507
+        width: 14
+        height: 18
+      alignment: 9
+      pivot: {x: 0.55433655, y: 0.14077759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6176fa5577af68848989026f98be602b
+      internalID: 1575834592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run 4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 506
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.52925813, y: 0.17669983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de87cac768770643b0a4063fd17c85d
+      internalID: 1634884223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 442
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c3e9de3c8a0dc4082058b55ee61cd3
+      internalID: -1992553941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 442
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77163b7a38068b443bc44ffa4748e6ae
+      internalID: -204364565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noArm
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 210
+        width: 3
+        height: 6
+      alignment: 9
+      pivot: {x: 0.34820685, y: 0.9336548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e1065189c153447bb8868025b063da
+      internalID: -1355914934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      attak: -864376982
+      attak 1: -487878602
+      attak 2: -524702204
+      attak 3: 1365045498
+      attak 4: -1358885391
+      attak 5: 1511939836
+      attak 6: 1791289064
+      attak 7: -846273856
+      fall: -204364565
+      idle: 2077184217
+      jump: -1992553941
+      noArm: -1355914934
+      rop: -84581231
+      rope: -1526776963
+      run 2: 1894460061
+      run 3: 1575834592
+      run 4: 1634884223
+      shoot 1: 761810384
+      shoot 2: -750037617
+      shoot 3: 1783811367
+      shoot 4: -711850249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
